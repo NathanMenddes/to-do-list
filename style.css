@@ -1,0 +1,51 @@
+*{
+    border:none;
+}
+body{
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #9572fc 0%, #43e7ad 50%, #e2d45c 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section{
+  background-color: #2a2634;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border-radius: 0.627rem;
+}
+
+button {
+    border:none;
+    padding: 0.3rem 0.3rem ;
+    border-radius: 0.4rem ;
+    background-color: rgb(84, 156, 204);
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 1rem rgba(107, 156, 255, 0.281);
+}
+
+input {
+
+    padding: 0.3rem 0.3rem ;
+    border-radius: 0.4rem ;
+}
